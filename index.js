@@ -5,6 +5,7 @@
  */
 
 const express = require('express')
+const cors = require('cors')
 
 /**
  * Constants
@@ -17,6 +18,12 @@ const port = 8080
  */
 
 const app = express()
+
+/**
+ * Middleware
+ */
+
+app.use(cors())
 
 /**
  * Routes
