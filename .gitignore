@@ -58,4 +58,4 @@ typings/
 .env
 
 # Mac files
-.DS_Store
+.DS_Store.gitsync_lock
